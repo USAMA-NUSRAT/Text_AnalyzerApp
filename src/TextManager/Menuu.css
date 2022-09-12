@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+.main-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100vw; */
+    /* padding: 20px; */
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+    padding: 0 10% 0 0;
+    border: none;
+    /* width: 100%; */
+    /* position: fixed; */
+    /* position: fixed; */
+    /* top: 0px; */
+    z-index: 100;
+}
+img{
+    width:10%;
+    height:10%;
+    /* text-align: left; */
+    margin-right: 100%;
+    padding-left:5% ;
+}
+.itemms{
+    margin-right: 20%;  
+}
+.itemms .mmen {
+    color: white;
+    text-decoration: none;
+    margin-right: 20%;
+    font-size: 22px;
+    /* border: 1px solid black; */
+}
+.itemms .mmen:hover {
+    color: rgb(138,0,33);
+    font-weight: bold;
+}
+.hamburger{
+    display: none;
+    position: absolute;
+    right:5px;
+    top:10px;
+}
+.icn .sicns{
+    height:1px;
+    max-width:20%;
+    /* border: 1px solid yellow; */
+    color: white;
+    margin-left: 4px;
+    /* background-color: white; */
+}
+@media only  screen  and (max-width : 710px) {
+    .main-bar{
+        width: 100vw;
+    }
+}
+@media only  screen  and (max-width : 710px) {
+    .main-bar{
+        padding: 0 20% 0 0;
+        /* height:auto; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* width: 100%; */
+        /* margin-top: 50px; */
+    }
+    .heighht{
+        height:50%;
+    }
+    .itemms .mmen {
+        font-size: 18px; 
+    }
+    .itemms{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width:10%;
+        height:10%;
+        margin-right: 0%;
+        margin-top: 10%;
+        padding-left: 0%;
+    }
+    .hamburger{
+        cursor: pointer;
+        display: block;
+
+    }
+    .hamburger .line{
+      
+        width:30px;
+        height: 3px;
+        background-color: white;
+        margin: 5px;
+    }
+    .visibility{
+        display: none;
+    }
+    /* .loogo, .itemms{
+        display: none;
+    } */
+
+}
